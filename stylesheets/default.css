@@ -45,8 +45,28 @@ a {
   position: fixed;
   top: 35%;
   right: 2%;
-  left: 15%
-  ;
+  left: 15%;
+}
+
+#blogbar {
+  position: relative;
+  left: 15%;
+}
+
+.bloglink {
+  display: inline;
+  border: 2px solid #6CDAFF;
+  padding: 3px;
+  margin: 5px;
+}
+
+.blue {
+  color: #6CDAFF;
+}
+
+.group {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #profilepic {
@@ -84,4 +104,21 @@ a {
   position: fixed;
   bottom: 0%;
 
+}
+
+#blogwelcome {
+  position: relative;
+  padding-top: 20px;
+  text-align: center;
+  color: #6CDAFF;
+  font-size: 24pt;
+  font-family: Courier;
+}
+
+#blog {
+  color: #6CDAFF;
+  font-family: Courier;
+  overflow: auto;
+  height: 300px;
+  margin-top: 15px;
 }
