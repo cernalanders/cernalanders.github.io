@@ -107,12 +107,14 @@ a {
 }
 
 #blogwelcome {
-  position: relative;
+  position: absolute;
   padding-top: 20px;
   text-align: center;
   color: #6CDAFF;
   font-size: 24pt;
   font-family: Courier;
+  top: 47%;
+  left: 25%;
 }
 
 #blog {
