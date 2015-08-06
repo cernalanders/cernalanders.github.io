@@ -91,15 +91,19 @@ header {
 }
 
 #github {
+  position: relative;
   text-align: center;
+  left: 25%;
+
 }
 
 #pic {
   font-size: 36pt;
-  padding-bottom: 25px;
-  top: 0;
+  margin-bottom: 25px;
+  bottom: 50%;
   font-family: Courier;
   font-style: italic;
+  vertical-align: middle;
 }
 
 .footer {
