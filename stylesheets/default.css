@@ -13,7 +13,7 @@ a {
   padding: 10px;
 }
 
-.navlink {
+td.navlink {
 
   padding: 15px;
   border: 5px solid #FFFFD1;
@@ -21,7 +21,10 @@ a {
   font-family: Verdana;
 }
 
-.header {
+td {
+  padding-left: 20px;
+}
+header {
   font-family: Arial;
   font-size: 80px;
   font-style: italic;
@@ -48,7 +51,7 @@ a {
   left: 15%;
 }
 
-#blogbar {
+.blogbar {
   position: relative;
   left: 15%;
 }
@@ -64,9 +67,9 @@ a {
   color: #6CDAFF;
 }
 
+
 .group {
-  margin-top: 5px;
-  margin-bottom: 5px;
+
 }
 
 #profilepic {
@@ -83,13 +86,12 @@ a {
   height: 10%;
   font-size: 20pt;
   margin: 10px;
-  margin-top: 60px;
   left: 15%;
   top: 45%;
 }
 
 #github {
-  margin-left: 30%;
+  text-align: center;
 }
 
 #pic {
