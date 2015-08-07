@@ -4,6 +4,11 @@ html {
   color: #FFFFD1;
 }
 
+#ders {
+  top: 15%;
+  position: absolute;
+}
+
 a {
   color: #FFFFD1;
 }
@@ -17,7 +22,7 @@ a {
 td.navlink {
 
   padding: 15px;
-  border: 5px solid #FFFFD1;
+
   text-align: center;
   font-family: Verdana;
 }
@@ -44,6 +49,10 @@ header {
   border-radius: 100px;
   width: 10%;
   height: 10%;
+  position: relative;
+  float: right;
+  right: 2%;
+  margin-top: 1%;
 }
 
 #body {
@@ -101,11 +110,12 @@ header {
 
 #pic {
   font-size: 36pt;
-  margin-bottom: 25px;
-  bottom: 50%;
+  position: absolute;
+  top: 20%;
   font-family: Courier;
   font-style: italic;
   vertical-align: middle;
+  left: 22.5%;
 }
 
 .footer {
