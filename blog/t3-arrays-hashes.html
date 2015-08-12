@@ -56,10 +56,22 @@
         </tr>
       </table>
     </section>      <section id="blog">
-  <h2><!--Blog family--></h2>
-  <h3><!--Post Title--></h3>
-  <h4><!--Date--></h4>
-    <!--Insert Blog Contents-->
+  <h2>Technical Blog</h2>
+  <h3>Arrays vs Hashes</h3>
+  <h4>Wednesday August 12, 2015</h4>
+    <p>Arrays and Hashes, what the heck are they? Simply put, arrays and hases are different ways to store multiple pieces of information. A variable is also a way to store information, but it can only store 1 thing. An array or a hash can store an infinite number of pieces of information.</p>
+      <p>Arrays store their information within square brackets ( [] ). Each piece of information is separated by a comma:</p>
+      <code>array [5, 10, 15]</code>
+      <p>In the example above, the array is called &quot;array&quot; and it has 3 pieces of information: 5, 10, and 15. We can expand this or contract it as much as we want if we get new, or have to delete, information. If we want a specific piece of information from the array, we use what is called an &quot;index number&quot;. Each piece of information in the array has an index number. The first item is given an index number of 0, the second gets an index number of 1, and so on. In our case, array[0] = 5. The information does not have to be numbers. It could be words or even sentences.</p>
+      <p>Hashes are similar to arrays in that they store multiple pieces of information, but instead of index numbers, information is assigned a key-word. The key-word does not have to be unique, so this makes hashes useful for categorizing information:</p>
+      <code> hash {
+        "The Rock" => "good"
+        "Titanic" => "bad"
+        "Terminator" => "good"
+      }
+    </code>
+    <p>Here you see that I have categorized some movies as either good or bad. I can use this hash to call up all of the movies that I think are good, or all of the ones that I think are bad.</p>
+    <p>When it comes to whether you should use a hash or an array, you need to think about your purpose. Arrays are very useful if the data needs to be extremely organized and sequential, whereas hashes are more free-flowing. Hashes are easier to manipulate, but it can be difficult to pull ordered data from them.</p>
       </section>
       </section>
 
