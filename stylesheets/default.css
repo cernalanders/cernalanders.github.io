@@ -53,6 +53,7 @@ header {
   float: right;
   right: 2%;
   margin-top: 1%;
+  border: 5px solid #6CDAFF;
 }
 
 #body {
@@ -64,7 +65,7 @@ header {
 
 .blogbar {
   position: relative;
-  left: 15%;
+  left: 10%;
 }
 
 .bloglink {
