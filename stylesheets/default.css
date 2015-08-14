@@ -7,6 +7,8 @@ html {
 #ders {
   top: 15%;
   position: absolute;
+  text-align: center;
+  left: 400px;
 }
 
 a {
@@ -31,12 +33,13 @@ td {
   padding-left: 20px;
 }
 header {
-  font-family: Arial;
+  font-family: 'Aladin', cursive;
   font-size: 80px;
   font-style: italic;
   color: #FFFFD1;
   position: fixed;
   top: 0%;
+  text-align: left;
 }
 
 #logo {
