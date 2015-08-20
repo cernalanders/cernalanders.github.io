@@ -134,9 +134,10 @@ header {
   position: absolute;
   padding-top: 20px;
   text-align: center;
-  color: #6CDAFF;
   font-size: 24pt;
-  font-family: Courier;
+  color: #0000A3;
+  background-color: #FFFFD1;
+  font-family: 'Special Elite', cursive;
   top: 47%;
   left: 25%;
 }
