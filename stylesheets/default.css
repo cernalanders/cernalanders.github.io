@@ -68,7 +68,7 @@ header {
 
 .blogbar {
   position: relative;
-  left: 10%;
+  left: 0%;
 }
 
 .bloglink {
@@ -76,6 +76,8 @@ header {
   border: 2px solid #6CDAFF;
   padding: 3px;
   margin: 5px;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Gruppo', cursive;
 }
 
 .blue {
@@ -141,11 +143,15 @@ header {
 
 #blog {
 position: relative;
-  color: #6CDAFF;
-  font-family: Courier;
+  color: #0000A3;
+  background-color: #FFFFD1;
+  font-family: 'Special Elite', cursive;;
   overflow: auto;
   height: 300px;
   width: 70%;
-  margin-top: 23.5%;
+  margin-top: 24%;
   left: 17.5%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #33CCFF;
 }
