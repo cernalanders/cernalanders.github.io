@@ -33,7 +33,7 @@ td {
   padding-left: 20px;
 }
 header {
-  font-family: Aladin;
+  font-family: 'Aladin', cursive;
   font-size: 80px;
   font-style: italic;
   color: #FFFFD1;
@@ -77,7 +77,7 @@ header {
   padding: 3px;
   margin: 5px;
   border-radius: 10px 10px 0 0;
-  font-family: Gruppo;
+  font-family: 'Gruppo', cursive;
 }
 
 .blue {
@@ -145,7 +145,7 @@ header {
 position: relative;
   color: #0000A3;
   background-color: #FFFFD1;
-  font-family: 'Special Elite';
+  font-family: 'Special Elite', cursive;
   overflow: auto;
   height: 300px;
   width: 70%;
