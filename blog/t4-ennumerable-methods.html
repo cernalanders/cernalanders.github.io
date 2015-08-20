@@ -59,7 +59,7 @@
     </section>
      <section id="blog">
   <h2>DBC Tech Blog</h2>
-  <h3>The Ennumerable Map Method</h3>
+  <h3>The Enumerable Map Method</h3>
   <h4>Thursday August 20, 2015</h4>
     <p>The idea of "mapping" over an array or a hash seems to confuse a lot of people. What does it do? What happens to the contents? When should I do this? Why can't I use ".each"? All of these are valid questions, and the subject of this post.</p>
     <p>What does ".map" do? The answer is fairly simple: .map goes through the contents of an array or a hash and executes a block of code for each item. YOu might do this if you wanted to capitalize a list of names, double a list of numbers, or anything else you might need to do. If you call ".map" on an object, you are required to include the block of code that you want to execute.</p>
@@ -67,7 +67,7 @@
     <p>If you try to map over an object without a block of code, you will receive an error message for your troubles.</p>
     <p>What happens to the contents of the original object? The answer is: nothing! When you run ".map" you are running a non-destructive method, which means that the original object goes untouched. ".map" returns a brand new object that contains a copy of the original, but with the changes made by the code block. This is great if you need to preserve the original for any other use. If you wanted to turn an array into a hash, but you still needed the original array for something else, maybe another hash, then this would be perfect. Say you wanted to categorize a list of movies by Parental Rating, Rotten Tomatoes Rating, and your friends' opinions. You would start with the same array of movie, but create a different hash for each situation. This would mean that you could map over the original and create 3 copies with different purposes.</p>
     <p>What is the difference between ".map" and ".each"? Both iterate over an object and execute a block of code on each item. But while ".map" returns a new object with the code executed, ".each" returns the original object. The other thing to keep in mind is the difference between ".map" and ".map!". Generally speaking, haivng a "!" on the end of a method signifies that it is destructive. Remember earlier when I said that ".map" does not modify the original object? Well, ".map!" does. The fact that it does this makes it destructive.</p>
-    <p>The ".map" Ennumerable method is very useful in Ruby. It allows you to modify, transform, or even replace objects while keeping the originals intact.</p>
+    <p>The ".map" Enumerable method is very useful in Ruby. It allows you to modify, transform, or even replace objects while keeping the originals intact.</p>
       </section>
       </section>
 
