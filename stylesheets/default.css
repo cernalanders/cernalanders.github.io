@@ -1,6 +1,6 @@
 html {
 
-  background-color: #0D2299;
+  background-color: #000099;
   color: #FFFFD1;
 }
 
@@ -45,7 +45,7 @@ header {
 #logo {
   width: 25%;
   height: 12.5%;
-  border: 5px solid black;
+  border: 5px solid #000066;
 }
 
 #bobble {
