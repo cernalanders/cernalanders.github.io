@@ -57,11 +57,50 @@
           <td class="bloglink"><a class="blue" href="#">Blog 16</a></td>
         </tr>
       </table>
-    </section>      <section id="blog">
-  <h2><!--Blog family--></h2>
-  <h3><!--Post Title--></h3>
-  <h4><!--Date--></h4>
-    <!--Insert Blog Contents-->
+    </section>
+ <section id="blog">
+  <h2>Technical Blog</h2>
+  <h3>The Dog Class</h3>
+  <h4>Thursday, August 27 2015</h4>
+    <pre>
+      class Dog
+        @@best = "My dog is the best in the world!"
+        @@puppy = nil
+        def initialize(breed, name, age)
+          @breed = breed
+          @name = name
+          @age = age
+        end
+        def check_puppy
+          if @age &lt;= 2
+            @@puppy = "#{@name} is just a puppy!"
+            p @@puppy
+          end
+        end
+        def call
+          p "#{@name}, come here doggy!"
+          check_puppy
+        end
+        def introduce
+          p "This is #{@name}, my #{@breed}. #{@@best}"
+          check_puppy
+        end
+        def self.puppy
+          @@puppy
+        end
+      end
+
+      ripley = Dog.new("beagle", "Ripley")
+      ripley.call
+      ripley.introduce
+    </pre>
+    <p>The code above might appear to be a little silly. The truth is that it is, but since it's only an example that's fine :).</p>
+    <p>This is an example of a newly defined class in Ruby. A class is like a design for an object. It can be used to create a hundred different things (in this case, dogs). Each time a new object is made it will have different specific data (name, breed and age), but the underlying design remains the same.</p>
+    <p>So let's examine this Dog class. It starts out by setting up a few variables. The @@best and @@puppy variables are known as class variables. These are only available inside the class. The reason that each of these is only available inside the class is that there is no need for them anywhere else. The statement for @@best does not require any other input and wouldn't make sense anywhere else. The @@puppy variable only gets used in the check_puppy method, which in turn is only used in the class.</p>
+    <p>The other variables that you see set up are the @breed, @name, and @age variables. These are known as instance variables. An instance variable is something that changes with each new instance (or new object). In this case, every time I create a new dog, that dog will have its own unique name, breed and age.</p>
+    <p>The first method that we define in the class is the initialize method. Initialize is what the class does every time a new instance is created. In this case, all it does is create the instance variables we have already discussed. Then we have hceck_puppy. This method is very straightforward, it checks to see if the dog is less than 2 years old, and if that is true, the @@puppy variable gets set to define that dog as a puppy.</p>
+    <p>The next 2 methods, call and introduce, are known as instance methods. These methods can be called on an instance of the object. You can see them being called at the bottom of the code on the instance I created, ripley. They are simple methods and simply output a string. Introduce also calls the check_puppy method inside it.</p>
+    <p>Lastly you have the self.puppy method. This is a class method. It, like class variables, is only available inside the class. This is the method that calls the @@puppy variable. Since I am only using this method within the class, it does not need to be an instance method.</p>
       </section>
       </section>
 
