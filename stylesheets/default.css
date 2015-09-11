@@ -169,3 +169,18 @@ position: relative;
   border-radius: 25px;
   border: 1px solid #33CCFF;
 }
+ h1 {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 54pt;
+ }
+ .project {
+  display: inline;
+  margin-left: 300px;
+  font-family: 'Special Elite', cursive;
+  padding: 15px;
+  border: 3px solid #FFFFD1;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 24pt;
+ }
