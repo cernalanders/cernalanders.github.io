@@ -81,9 +81,11 @@ header {
   border-radius: 10px 10px 0 0;
   font-family: 'Special Elite', cursive;
   font-size: 10pt;
+  background-color: black;
 }
 
 .blue {
+  background-color: black;
   color: #6CDAFF;
 }
 
