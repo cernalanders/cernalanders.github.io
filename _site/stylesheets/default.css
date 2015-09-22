@@ -1,0 +1,186 @@
+html {
+
+  background-color: #000099;
+  color: #FFFFD1;
+}
+
+#ders {
+  top: 15%;
+  position: absolute;
+  text-align: center;
+  left: 35%;
+}
+
+a {
+  color: #FFFFD1;
+}
+.navbar {
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  padding: 10px;
+}
+
+td.navlink {
+
+  padding: 15px;
+  font-size: 20pt;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+td {
+  padding-left: 20px;
+}
+header {
+  font-family: 'Aladin', cursive;
+  font-size: 80px;
+  font-style: italic;
+  color: #FFFFD1;
+  position: fixed;
+  top: 0%;
+  text-align: left;
+}
+
+#logo {
+  width: 25%;
+  height: 12.5%;
+  border: 5px solid #000066;
+}
+
+#bobble {
+  border-radius: 100px;
+  width: 10%;
+  height: 10%;
+  position: relative;
+  float: right;
+  right: 2%;
+  margin-top: 1%;
+  border: 5px solid #6CDAFF;
+}
+
+#body {
+  position: fixed;
+  top: 35%;
+  right: 2%;
+  left: 15%;
+}
+
+.blogbar {
+  position: relative;
+  left: 0%;
+}
+
+.bloglink {
+  display: inline;
+  border: 2px solid #6CDAFF;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Special Elite', cursive;
+  font-size: 10pt;
+}
+
+.blue {
+  color: #6CDAFF;
+}
+
+
+#bio {
+  display: inline-block;
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  line-height: 150%;
+  height: 350px;
+  overflow: auto;
+  border: 2.5px solid #FFFFD1;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#profilepic {
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+  margin-left: 25px;
+  border-radius: 15px;
+  border: 3px solid #FFFFD1;
+  display: inline;
+}
+
+.social {
+  display: inline-block;
+  width: 35%;
+  height: 10%;
+  font-size: 20pt;
+  margin: 10px;
+  left: 15%;
+  top: 45%;
+}
+
+#github {
+  position: relative;
+  text-align: center;
+  left: 25%;
+
+}
+
+#pic {
+  font-size: 36pt;
+  position: absolute;
+  top: 20%;
+  font-family: Courier;
+  font-style: italic;
+  vertical-align: middle;
+  left: 22.5%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+
+}
+
+#blogwelcome {
+  position: absolute;
+  padding: 20px;
+  text-align: center;
+  font-size: 24pt;
+  color: #0000A3;
+  background-color: #FFFFD1;
+  font-family: 'Special Elite', cursive;
+  top: 47%;
+  left: 25%;
+  border-radius: 25px;
+  border: 1px solid #33CCFF;
+}
+
+#blog {
+position: relative;
+  color: #0000A3;
+  background-color: #FFFFD1;
+  font-family: 'Special Elite', cursive;
+  overflow: auto;
+  height: 300px;
+  width: 70%;
+  margin-top: 24%;
+  left: 17.5%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #33CCFF;
+}
+ h1 {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 54pt;
+ }
+ .project {
+  display: inline;
+  margin-left: 300px;
+  font-family: 'Special Elite', cursive;
+  padding: 15px;
+  border: 3px solid #FFFFD1;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 24pt;
+ }

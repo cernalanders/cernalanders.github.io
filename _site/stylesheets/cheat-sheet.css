@@ -1,0 +1,119 @@
+html {
+
+  background-color: #000099;
+  color: #FFFFD1;
+}
+
+#ders {
+  top: 15%;
+  position: absolute;
+  text-align: center;
+  left: 35%;
+}
+
+a {
+  color: #FFFFD1;
+}
+.navbar {
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  padding: 10px;
+}
+
+td.navlink {
+
+  padding: 15px;
+  font-size: 20pt;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+td {
+  padding-left: 20px;
+}
+header {
+  font-family: 'Aladin', cursive;
+  font-size: 80px;
+  font-style: italic;
+  color: #FFFFD1;
+  position: fixed;
+  top: 0%;
+  text-align: left;
+}
+
+#logo {
+  width: 25%;
+  height: 12.5%;
+  border: 5px solid #000066;
+}
+
+#bobble {
+  border-radius: 100px;
+  width: 10%;
+  height: 10%;
+  position: relative;
+  float: right;
+  right: 2%;
+  margin-top: 1%;
+  border: 5px solid #6CDAFF;
+}
+
+#body {
+  margin-left: 25px;
+  position: fixed;
+  top: 35%;
+  right: 2%;
+  left: 15%;
+  height: 400px;
+  background-color: black;
+  color: white;
+  overflow: auto;
+  border-radius: 10px;
+}
+#body a {
+  background-color: black;
+  color: white;
+
+}
+
+.type {
+  display: inline-block;
+  position: relative;
+  font: Arial;
+  width: 400px;
+
+  border: 1px solid white;
+  margin: 25px;
+}
+
+#body div {
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+
+}
+
+
+
+ h1 {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 54pt;
+ }
