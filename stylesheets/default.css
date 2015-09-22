@@ -131,9 +131,11 @@ header {
   width: 25px;
   height: 25px;
   font-size: 20pt;
-  margin: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
   left: 15%;
   top: 45%;
+
 }
 
 .social img {
