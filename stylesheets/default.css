@@ -1,5 +1,6 @@
 html {
-
+      background-image: url('http://i.imgur.com/YtOinoC.jpg');
+    background-size: 100%;
   background-color: #000099;
   color: #FFFFD1;
 }
@@ -60,6 +61,7 @@ header {
 }
 
 #body {
+
   position: fixed;
   top: 35%;
   right: 2%;
@@ -103,19 +105,30 @@ header {
   height: 200px;
   margin-right: 50px;
   margin-left: 25px;
-  border-radius: 15px;
+  border-radius: 25px;
   border: 3px solid #FFFFD1;
   display: inline;
 }
 
 .social {
   display: inline-block;
-  width: 35%;
-  height: 10%;
+  width: 25px;
+  height: 25px;
   font-size: 20pt;
   margin: 10px;
   left: 15%;
   top: 45%;
+}
+
+.social img {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #000066;
+  border-radius: 100px;
+}
+
+.social a {
+  color: #000099;
 }
 
 #github {
@@ -123,16 +136,18 @@ header {
   text-align: center;
   left: 25%;
 
+
 }
 
 #pic {
   font-size: 36pt;
   position: absolute;
   top: 20%;
-  font-family: Courier;
+  font-family: Aladin;
   font-style: italic;
   vertical-align: middle;
   left: 22.5%;
+  color: #00FFFF;
 }
 
 .footer {
