@@ -191,6 +191,7 @@ header {
   left: 25%;
   border-radius: 25px;
   border: 1px solid #33CCFF;
+  opacity: 0.8;
 }
 
 #blog {
@@ -206,6 +207,7 @@ position: relative;
   padding: 10px;
   border-radius: 25px;
   border: 1px solid #33CCFF;
+  opacity: 0.85;
 }
  h1 {
   font-family: 'Special Elite', cursive;
