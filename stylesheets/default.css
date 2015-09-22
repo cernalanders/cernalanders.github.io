@@ -3,6 +3,7 @@ html {
     background-size: 100%;
   background-color: #000099;
   color: #FFFFD1;
+  overflow: auto;
 }
 
 #ders {
@@ -10,6 +11,11 @@ html {
   position: absolute;
   text-align: center;
   left: 35%;
+      text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 a {
@@ -127,6 +133,7 @@ header {
   height: 100px;
   border: 5px solid #000066;
   border-radius: 100px;
+  background-color: white;
 }
 
 .social a {
@@ -142,14 +149,18 @@ header {
 }
 
 #pic {
-  font-size: 36pt;
+  font-size: 48pt;
   position: absolute;
   top: 20%;
   font-family: Aladin;
   font-style: italic;
   vertical-align: middle;
   left: 22.5%;
-  color: #00FFFF;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 .footer {
