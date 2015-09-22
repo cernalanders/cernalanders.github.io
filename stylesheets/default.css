@@ -63,7 +63,7 @@ header {
   float: right;
   right: 2%;
   margin-top: 1%;
-  border: 5px solid #6CDAFF;
+  border: 5px solid #FFFFD1;
 }
 
 #body {
@@ -117,11 +117,11 @@ header {
 
 
 #profilepic {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   margin-right: 50px;
-  margin-left: 25px;
-  border-radius: 25px;
+  margin-left: 100px;
+  border-radius: 50px;
   border: 3px solid #FFFFD1;
   display: inline;
 }
@@ -145,6 +145,13 @@ header {
   border-radius: 100px;
   background-color: white;
 }
+.social #resume {
+  width: 200px;
+  height: 100px;
+  border: 5px solid #000066;
+  border-radius: 25px;
+  background-color: white;
+}
 
 .social a {
   color: #000099;
@@ -159,13 +166,14 @@ header {
 }
 
 #pic {
-  font-size: 48pt;
+  font-size: 64pt;
   position: absolute;
   top: 20%;
   font-family: Aladin;
   font-style: italic;
   vertical-align: middle;
   left: 22.5%;
+  margin-left: 100px;
     text-shadow:
     -2px -2px 0 #000,
     2px -2px 0 #000,
