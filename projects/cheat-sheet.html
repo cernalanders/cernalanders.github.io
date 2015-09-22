@@ -1,94 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head><title>Welcome to the Ders!</title>
-<link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Special+Elite|Gruppo' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet.css"></head>
+  <head>
+    <title>Welcome to the Ders!</title>
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite|Gruppo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet.css">
+  </head>
   <body>
-
-      <header>
-        <img alt= "logo" id="logo" src="../imgs/logo.jpg"/><span id="ders">Welcome to the Ders!</span>
-        <img alt="bobble" id="bobble" src="../imgs/bobblehead.jpg"/>
-      </header>
-
-
-      <table class="navbar">
-
-<tr>
-  <td class="navlink"><a href="https://cernalanders.github.io/index.html">Home</a></td>
-</tr>
-<tr>
-  <td class="navlink"><a href="https://cernalanders.github.io/about.html">About Me</a></td>
-  </tr>
-<tr>
-  <td class="navlink"><a href="https://cernalanders.github.io/blog/blog-index.html">Blogs</a></td>
-    </tr>
-<tr>
-  <td class="navlink"><a href="https://cernalanders.github.io/projects/index.html">My Projects</a></td>
-  </tr>
-<tr>
-  <td class="navlink"><a href="mailto:anders.j.drew@gmail.com">Contact Me!</a></td>
-  </tr>
-      </table>
-
-      <section id="body">
-<h2>Ruby Hashes, Arrays, Strings and Integers</h2>
-<div id ="rubydocs">
-<p>Find information on RubyDocs for:</p>
-<ul>
-  <li><a href="http://docs.ruby-lang.org/en/2.0.0/Hash.html">Hashes</a></li>
-  <li><a href="http://ruby-doc.org/core-2.2.0/Array.html">Arrays</a></li>
-  <li><a href="http://ruby-doc.org/core-2.2.0/String.html">Strings</a></li>
-  <li><a href="http://ruby-doc.org/core-2.2.0/Integer.html">Integers</a></li>
-</ul></div>
-
-
-<section class="type">
-<h3>Hashes</h3>
-<p>Definition: A hash is like a dictionary. It uses a unique key to store values. Values are not required to be unique. A key can be any type of object.</p>
-<p>Syntax: A hash is contained within curly brackets ({}). While there are many ways to write a hash, the most common appears as { key=&gt;value } Key-Value pairs are separated by commas: { key1=&gt;value1, key2=&gt;value2 } </p>
-<p>Best Uses: A hash is best used when the information does not need to be in a particular order, or when you don't necessarily want to use a numbered index to retrieve information. Since the key in a hash can be just about anything, you are not restricted.</p>
-<p>Retrieving information: To get specific information out of a hash you identify the hash name you desire and call the value via the key using the following syntax: hash[key] = value. If you would like to get multiple pieces of information from the hash, you may use an iteration method.</p>
-<p>Common Methods: .each (executes a codeblock for each key-value pair in the hash), .has_key? (returns true is the hash contains the specified key), .length (returns the number of key-value pairs in the hash), .select (returns a new hash with the key-value pairs for which the block of code is true).</p>
-<p>Coding Examples:
-<code>singles = { "1" => "one", "2" => "two", "3" => "three", "4" => "four", "5" => "five", "6" => "six", "7" => "seven", "8" => "eight", "9" => "nine"}</code>
-<code>  def initialize(name, quantity)
-     @food = {name=>quantity}
-  end</code></p>
-</section>
-
-<section class= "type">
-<h3>Arrays</h3>
-<p>Definition: Arrays are objects that can store multiple values.</p>
-<p>Syntax:Array = [value_1, value_2, value_3, value_4, value_5]</p>
-<p>Best Uses: The best time to use a hash is when you want to store your information in a particular order.  </p>
-<p>Retrieving information: With an array it's possible to retrieve info using the index number from the array. Ex: array[0] = value_1 , array[1] = value_2</p>
-<p>Common Methods: .each (executes a block of code for each item in the array), .map (executes a block of code for each item in the array and places it into a new array), .length (returns the number of items in the array), .include? (returns true if the specified item is in the array), .push() (pushes the item in the parentheses into the array)</p>
-<p>Coding Examples: <code>[1, 2, 3].length = 3</code><code>["thing1", "thing2"].push("thing3") = ["thing1", "thing2", "thing3"]</code></p></section>
-
-<section class="type">
-<h3>Strings</h3>
-<p>Definition: A string is an object that holds "data in the form of characters." Essentially it is anything housed inside of single or double quotes (It can be any number, letter or symbol).</p>
-<p>Syntax: "hello world", 'ball', "32", "h@t"</p>
-<p>Common Methods: .to_s converts objects into strings. .capitalize capitalizes the first letter in a string. .upcase and .downcase are used to uppercase and downcase all letters in a string, respectively. .gsub! is used to swap out any matching string and replace it with another. .reverse is also often used to reverse the contents of a string.</p>
-<p>Coding Examples:<code>"hahahaha".gsub(/[a]/, '@') = h@hAh@h@</code><code>"i don't know what we're yelling about!".upcase = "I DON'T KNOW WHAT WE'RE YELLING ABOUT!"</code><code>"Why is this backwards?".reverse</p></section>
-
-<section class = "type">
-<h3>Integers</h3>
-<p>Definition: An integer is a fixed number with no decimals.</p>
-<p>Syntax: write a number</p>
-<p>Common Methods: .to_s (turns the integer into a string), .split()(splits a multiple-digit number into an array of strings). You can also perform mathematical operations with arithmetic operators.</p>
-<p>Coding Example: 45.split() = ["4", 5"]</p></section>
-
-
-
-
-
-
-      </section>
-
-      <section class="footer"><footer><a href="#">Sitemap</a>
-      <a href="mailto:anders.j.drew@gmail.com">contact</a>
-    <a href="#">help</a></footer></section>
-    </body>
-    </html>
+    <header>
+      <img alt= "logo" id="logo" src="../imgs/logo.jpg"/><span id="ders">Welcome to the Ders!</span>
+      <img alt="bobble" id="bobble" src="../imgs/bobblehead.jpg"/>
+    </header>
+    <table class="navbar">
+      <tr>
+        <td class="navlink">
+          <a href="https://cernalanders.github.io/index.html">Home</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="navlink">
+          <a href="https://cernalanders.github.io/about.html">About Me</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="navlink">
+          <a href="https://cernalanders.github.io/blog/blog-index.html">Blogs</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="navlink">
+          <a href="https://cernalanders.github.io/projects/index.html">My Projects</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="navlink">
+          <a href="mailto:anders.j.drew@gmail.com">Contact Me!</a>
+        </td>
+      </tr>
+    </table>
+    <section id="body">
+      <h2>Ruby Hashes, Arrays, Strings and Integers</h2>
+        <div id ="rubydocs">
+          <p>Find information on RubyDocs for:</p>
+          <ul>
+            <li>
+              <a href="http://docs.ruby-lang.org/en/2.0.0/Hash.html">Hashes</a>
+            </li>
+            <li>
+              <a href="http://ruby-doc.org/core-2.2.0/Array.html">Arrays</a>
+            </li>
+            <li>
+              <a href="http://ruby-doc.org/core-2.2.0/String.html">Strings</a>
+            </li>
+            <li>
+              <a href="http://ruby-doc.org/core-2.2.0/Integer.html">Integers</a>
+            </li>
+          </ul>
+        </div>
+        <section class="type">
+          <h3>Hashes</h3>
+          <p>Definition: A hash is like a dictionary. It uses a unique key to store values. Values are not required to be unique. A key can be any type of object.</p>
+          <p>Syntax: A hash is contained within curly brackets ({}). While there are many ways to write a hash, the most common appears as { key=&gt;value } Key-Value pairs are separated by commas: { key1=&gt;value1, key2=&gt;value2 } </p>
+          <p>Best Uses: A hash is best used when the information does not need to be in a particular order, or when you don't necessarily want to use a numbered index to retrieve information. Since the key in a hash can be just about anything, you are not restricted.</p>
+          <p>Retrieving information: To get specific information out of a hash you identify the hash name you desire and call the value via the key using the following syntax: hash[key] = value. If you would like to get multiple pieces of information from the hash, you may use an iteration method.</p>
+          <p>Common Methods: .each (executes a codeblock for each key-value pair in the hash), .has_key? (returns true is the hash contains the specified key), .length (returns the number of key-value pairs in the hash), .select (returns a new hash with the key-value pairs for which the block of code is true).</p>
+          <p>Coding Examples:
+            <code>singles = { "1" => "one", "2" => "two", "3" => "three", "4" => "four", "5" => "five", "6" => "six", "7" => "seven", "8" => "eight", "9" => "nine"}</code>
+            <pre>  def initialize(name, quantity)
+              @food = {name=>quantity}
+              end</pre>
+          </p>
+        </section>
+        <section class= "type">
+          <h3>Arrays</h3>
+            <p>Definition: Arrays are objects that can store multiple values.</p>
+            <p>Syntax:Array = [value_1, value_2, value_3, value_4, value_5]</p>
+            <p>Best Uses: The best time to use a hash is when you want to store your information in a particular order.  </p>
+            <p>Retrieving information: With an array it's possible to retrieve info using the index number from the array. Ex: array[0] = value_1 , array[1] = value_2</p>
+            <p>Common Methods: .each (executes a block of code for each item in the array), .map (executes a block of code for each item in the array and places it into a new array), .length (returns the number of items in the array), .include? (returns true if the specified item is in the array), .push() (pushes the item in the parentheses into the array)</p>
+            <p>Coding Examples:
+              <code>[1, 2, 3].length = 3</code>
+              </br>
+              <code>["thing1", "thing2"].push("thing3") = ["thing1", "thing2", "thing3"]</code>
+            </p>
+          </section>
+          <section class="type">
+            <h3>Strings</h3>
+              <p>Definition: A string is an object that holds "data in the form of characters." Essentially it is anything housed inside of single or double quotes (It can be any number, letter or symbol).</p>
+              <p>Syntax: "hello world", 'ball', "32", "h@t"</p>
+              <p>Common Methods: .to_s converts objects into strings. .capitalize capitalizes the first letter in a string. .upcase and .downcase are used to uppercase and downcase all letters in a string, respectively. .gsub! is used to swap out any matching string and replace it with another. .reverse is also often used to reverse the contents of a string.</p>
+              <p>Coding Examples:
+                <code>"hahahaha".gsub(/[a]/, '@') = h@hAh@h@</code>
+                </br>
+                <code>"i don't know what we're yelling about!".upcase = "I DON'T KNOW WHAT WE'RE YELLING ABOUT!"</code>
+                </br>
+                <code>"Why is this backwards?".reverse</p>
+          </section>
+          <section class = "type">
+            <h3>Integers</h3>
+              <p>Definition: An integer is a fixed number with no decimals.</p>
+              <p>Syntax: write a number</p>
+              <p>Common Methods: .to_s (turns the integer into a string), .split()(splits a multiple-digit number into an array of strings). You can also perform mathematical operations with arithmetic operators.</p>
+              <p>Coding Example: 45.split() = ["4", 5"]</p>
+          </section>
+    </section>
+    <section class="footer">
+      <footer>
+        <a href="#">Sitemap</a>
+        <a href="mailto:anders.j.drew@gmail.com">contact</a>
+        <a href="#">help</a>
+      </footer>
+    </section>
+  </body>
+</html>
