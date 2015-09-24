@@ -47,6 +47,7 @@ header {
   position: fixed;
   top: 0%;
   text-align: left;
+
 }
 
 #logo {
@@ -77,6 +78,7 @@ header {
 .blogbar {
   position: relative;
   left: 0%;
+  top: 0%;
 }
 
 .bloglink {
