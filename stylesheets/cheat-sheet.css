@@ -41,6 +41,11 @@ header {
   position: fixed;
   top: 0%;
   text-align: left;
+          text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 #logo {
