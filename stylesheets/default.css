@@ -243,3 +243,35 @@ position: relative;
     -2px 2px 0 #000,
     2px 2px 0 #000;
  }
+
+ .phase-link {
+  display: inline;
+  margin-left: 150px;
+  font-family: 'Special Elite', cursive;
+  padding: 15px;
+  text-align: center;
+  border: 3px solid #FFFFD1;
+  font-size: 24pt;
+  border-radius: 25px;
+  background-image: url("http://7-themes.com/data_images/out/45/6925171-beach-sunset-backgrounds.jpg");
+        text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+ }
+ #blog1 {
+position: relative;
+  color: #0000A3;
+  background-color: #FFFFD1;
+  font-family: 'Special Elite', cursive;
+  overflow: auto;
+  height: 400px;
+  width: 70%;
+  margin-top: 15%;
+  left: 17.5%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #33CCFF;
+  opacity: 0.85;
+}
