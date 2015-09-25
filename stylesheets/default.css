@@ -223,14 +223,25 @@ position: relative;
   font-family: 'Special Elite', cursive;
   text-align: center;
   font-size: 54pt;
+        text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
  }
+
  .project {
   display: inline;
   margin-left: 200px;
   font-family: 'Special Elite', cursive;
   padding: 15px;
-  border: 3px solid #FFFFD1;
+
   border-radius: 25px;
   text-align: center;
   font-size: 24pt;
+        text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
  }
